@@ -42,8 +42,8 @@ function lastIndexOfChars(str, charA, charB) {
 console.log(lastIndexOfChars('', 'w', 'd'));
 console.log(func('', 'w', 'd'));
 
-console.log(lastIndexOfChars('hello World', 'w', 'd'));
-console.log(func('hello World', 'w', 'd'));
+console.log(lastIndexOfChars('hello world', 'w', 'd'));
+console.log(func('hello world', 'w', 'd'));
 
-console.log(lastIndexOfChars('hello World', 'ws', 'sd'));
-console.log(func('hello World', 'ws', 'sd'));
+console.log(lastIndexOfChars('hello world', 'ws', 'sd'));
+console.log(func('hello world', 'ws', 'sd'));
