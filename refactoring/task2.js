@@ -1,9 +1,8 @@
 function drawRating(vote) {
-    if (vote <= 20) return '★☆☆☆☆';
-    if (vote <= 40) return '★★☆☆☆';
-    if (vote <= 60) return '★★★☆☆';
-    if (vote <= 80) return '★★★★☆';
-    return '★★★★★';
+    return new Array(5)
+        .fill("☆")
+        .map((i, ind) => vote - 20*ind >= 0 ? "★" : i)
+        .join("")
 }
 
 // Проверка работы результата
